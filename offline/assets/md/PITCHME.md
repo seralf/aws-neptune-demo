@@ -15,7 +15,7 @@ A graph database in the cloud
 ## who are we?
 
 
-![Marco Liberati](assets/img/marco_liberati_avatar.jpg)
+![Marco Liberati](assets/img/marco_liberati_avatar.jpg|width=40)
 Marco Liberati
 
 ![Alfredo Serafini](assets/img/NOT_YET.jpg)
@@ -38,7 +38,7 @@ CHECK: come usare vertical fragments?
 - Qualche nota di introduzione a SPARQL ~ 2/3 minuti
 - Qualche query di esempio SPARQL ~ 5 minuti
 
-+++
+---
 
 ## Agenda - 2
 
@@ -48,9 +48,7 @@ CHECK: come usare vertical fragments?
 - Caso d'uso: Linked Data ~ 2/3 minuti
 - QA ~ 5 minuti
 
-
-Note:
-slides vertical fragments
+TODO: slides vertical fragments
 
 
 ---
@@ -137,6 +135,17 @@ TODO
 
 ## SPARQL examples
 
+let's se some code...
+
+---
+
+### SPARQL examples
+
+---?code=src/ex01.sparql&title=The first SPARQL query!
+
++++
+
+### SPARQL examples
 
 + counting all the triples
 

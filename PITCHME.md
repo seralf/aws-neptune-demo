@@ -15,7 +15,7 @@ A graph database in the cloud
 ## who are we?
 
 
-![Marco Liberati](assets/img/marco_liberati_avatar.jpg)
+![Marco Liberati](assets/img/marco_liberati_avatar.jpg|width=40)
 Marco Liberati
 
 ![Alfredo Serafini](assets/img/NOT_YET.jpg)
@@ -135,6 +135,17 @@ TODO
 
 ## SPARQL examples
 
+let's se some code...
+
+---
+
+### SPARQL examples
+
+---?code=src/ex01.sparql&title=The first SPARQL query!
+
++++
+
+### SPARQL examples
 
 + counting all the triples
 

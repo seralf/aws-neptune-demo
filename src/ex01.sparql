@@ -1,0 +1,11 @@
+
+# a list of all the used concepts
+
+SELECT ?concept 
+
+WHERE {
+
+	?s a ?concept .
+
+}
+
