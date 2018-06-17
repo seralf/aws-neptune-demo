@@ -55,26 +55,6 @@ SEE https://docs.aws.amazon.com/it_it/neptune/latest/userguide/access-graph-spar
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * * 
 
 

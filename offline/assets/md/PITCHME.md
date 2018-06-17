@@ -8,6 +8,8 @@ A graph database in the cloud
 
 <small>https://gitpitch.com/seralf/aws-neptune-demo/drafts_seralf</small>
 
+![Video](https://www.youtube.com/watch?v=6o1Ezf6NZ_E#t=26m)
+
 ---
 
 ## who are we?
@@ -36,7 +38,7 @@ CHECK: come usare vertical fragments?
 - Qualche nota di introduzione a SPARQL ~ 2/3 minuti
 - Qualche query di esempio SPARQL ~ 5 minuti
 
----
++++
 
 ## Agenda - 2
 
@@ -46,7 +48,9 @@ CHECK: come usare vertical fragments?
 - Caso d'uso: Linked Data ~ 2/3 minuti
 - QA ~ 5 minuti
 
-TODO: slides vertical fragments
+
+Note:
+slides vertical fragments
 
 
 ---
