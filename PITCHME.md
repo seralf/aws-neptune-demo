@@ -137,24 +137,31 @@ TODO
 
 let's se some code...
 
----
++++
 
-### SPARQL examples
+```
+# a list of all the used concepts
 
-the first SPARQL query!
+SELECT ?concept 
 
----?code=src/ex01.sparql&lang=sparql
+WHERE {
+
+	?s a ?concept .
+
+}
+
+```
 
 +++
 
-### SPARQL examples
 
 counting all the triples
 
----?code=src/ex02.sparql&lang=sparql
- 
+---?code=src/ex02.sparql&lang=sparql&title=counting all the triples
 
-+ counting triples by concept
++++
+
+counting triples by concept
 
 ```sparql
 SELECT (COUNT(?p) AS ?triples)
