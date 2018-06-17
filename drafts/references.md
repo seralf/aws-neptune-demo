@@ -1,67 +1,14 @@
 
 
 
-OUTLINE
-===============================================
-
-## Overview AWS Neptune (cos'è, come funziona) ~ 5 minuti
-## Cosa sono SPARQL e Gremlin ~ 2/3 minuti
-## Property Graph o RDF? ~ 2/3 minuti
-## Qualche nota di introduzione a SPARQL ~ 2/3 minuti
-## Qualche query di esempio SPARQL ~ 5 minuti
-## Caso d'uso: Linked Data ~ 2/3 minuti
-## Spiegazione dataset: http://www.dbis.informatik.uni-goettingen.de/Mondial/mondial-ER.pdf ~ 5/10 minuti
-## Provare a risolvere il problema usando SQL ~ 2/3 minuti
-## Provare a risolvere il problema usando SPARQL su Neptune ~ 5 minuti
-## QA ~ 5 minuti
 
 
 
 DRAFTS
 ===============================================
 
-TODO: gitpitch this!
 
 
-
-
-## amazon neptune SPARQL
-
-+ presentation
-
-	+ built from scratch 
-		rumors about blazegraph team and code
-	+ no bias: adopts SPARQL or gremlin
-
-	+ possible usage
-		- social networks
-		- recommendations
-		- fraud detection
-		- network analysis
-		- life sciences (bioinformatics, etc)
-		- knowledge graphs
-		- ML on graphs (DL and more...)
-		- textual analysis (see: NLP, conceptnet/wordnet...)
-		
-	+ pros of neptune:
-		- optimized for storage / retrieval / queries on
-		- highly connected data
-		- querying graphs is hard on SQL
-
-+ features
-
-	- based on blazegraph / acquire blazegraph team
-	- SPARQL 1.1 + gremlin	
-	- no support for SPARQL federated queries (security)
-	- no inferencing
-	- no schema concepts / constraints (SCHACL maybe?)
-	- up to 64 terabytes storage, not statically allocated	
-	- tested with hundred billions triples
-	+ loading
-		- NO load by SPARQL UPDATE da URL	
-		- load by HTTP API (VPC...)
-		- load by bulk load endpoint... TODO
-		- NOTE: load API not ACID
 
 
 + docs amazon
