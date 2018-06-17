@@ -13,13 +13,13 @@ A graph database in the cloud
 ## who are we?
 
 
-![Marco Liberati](drafts/img/marco_liberati_avatar.jpg)
+![Marco Liberati](assets/img/marco_liberati_avatar.jpg)
 Marco Liberati
 
-![Alfredo Serafini](drafts/img/NOT_YET.jpg)
+![Alfredo Serafini](assets/img/NOT_YET.jpg)
 Alfredo Serafini
 
-![GraphRM](drafts/img/GraphRM_logo.png)
+![GraphRM](assets/img/GraphRM_logo.png)
 GraphRM
 
 ---
@@ -35,9 +35,6 @@ CHECK: come usare vertical fragments?
 - Property Graph o RDF? ~ 2/3 minuti
 - Qualche nota di introduzione a SPARQL ~ 2/3 minuti
 - Qualche query di esempio SPARQL ~ 5 minuti
-
-Note:
-find how to do vertical slides
 
 ---
 
@@ -64,7 +61,7 @@ TODO
 
 ### architectural overview
 
-![neptune_architecture_01](drafts/img/neptune_architecture_01.png)
+![neptune_architecture_01](assets/img/neptune_architecture_01.png)
 
 TODO
 
@@ -134,9 +131,29 @@ TODO
 
 ---
 
-## SPARQL example
+## SPARQL examples
 
-TODO
+
++ counting all the triples
+
+```sparql
+SELECT (COUNT(*) AS ?triples)
+WHERE {
+?s ?p ?o .
+}
+
+```
+
++ counting triples by concept
+
+```sparql
+SELECT (COUNT(?p) AS ?triples)
+WHERE {
+?s a ?concept .
+?s ?p ?o .
+}
+
+```
 
 ---
 

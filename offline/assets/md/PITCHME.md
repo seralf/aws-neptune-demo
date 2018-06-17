@@ -131,9 +131,29 @@ TODO
 
 ---
 
-## SPARQL example
+## SPARQL examples
 
-TODO
+
++ counting all the triples
+
+```sparql
+SELECT (COUNT(*) AS ?triples)
+WHERE {
+?s ?p ?o .
+}
+
+```
+
++ counting triples by concept
+
+```sparql
+SELECT (COUNT(?p) AS ?triples)
+WHERE {
+?s a ?concept .
+?s ?p ?o .
+}
+
+```
 
 ---
 
