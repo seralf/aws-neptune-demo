@@ -4,7 +4,12 @@ logo : ./drafts/img/GraphRM_logo.png
 
 slide-number : true
 
-published : true
+published : false
 
-highlight : mono-blue
+highlight : Tomorrow
+
+gatoken : UA-1111111-1
+
+
+
 
