@@ -141,21 +141,18 @@ let's se some code...
 
 ### SPARQL examples
 
----?code=src/ex01.sparql&lang=sparql&title=The first SPARQL query!
+the first SPARQL query!
+
+---?code=src/ex01.sparql&lang=sparql
 
 +++
 
 ### SPARQL examples
 
-+ counting all the triples
+counting all the triples
 
-```sparql
-SELECT (COUNT(*) AS ?triples)
-WHERE {
-?s ?p ?o .
-}
-
-```
+---?code=src/ex02.sparql&lang=sparql
+ 
 
 + counting triples by concept
 
