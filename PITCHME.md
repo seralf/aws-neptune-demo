@@ -141,7 +141,7 @@ let's se some code...
 
 ### SPARQL examples
 
----?code=src/ex01.sparql&title=The first SPARQL query!
+---?code=src/ex01.sparql&lang=sparql&title=The first SPARQL query!
 
 +++
 
