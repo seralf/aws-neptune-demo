@@ -19,7 +19,7 @@
 
 <link href="./assets/reveal.js/3.6.0/css/print/paper.css" rel="stylesheet" type="text/css"/>
 
-<link href="./assets/highlight.js/9.12.0/hybrid.css" rel="stylesheet" type="text/css"/>
+<link href="./assets/highlight.js/9.12.0/Tomorrow.css" rel="stylesheet" type="text/css"/>
 <link href="./assets/octicons/3.5.0/octicons.css" rel="stylesheet" type="text/css"/>
 <link href="./assets/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
@@ -288,6 +288,15 @@
 
     
 
+<style>
+.reveal section img {
+	border: 2px;
+	border-color: transparent ;
+	box-shadow: none;
+}
+
+</style>
+
 
     
 
@@ -295,6 +304,12 @@
 </head>
 <body>
     
+
+<div id="gp-logo" style="position: fixed; top: 20px; right: 20px; z-index: 1">
+    
+    <img src="./assets/md/assets/GraphRM_logo.png"/>
+    
+</div>
 
 
     <div class="reveal">
@@ -345,9 +360,9 @@
             shuffle: false,
             mouseWheel: false,
             
-              slideNumber: 'c/t', // slideNumber: false,
+              slideNumber: 'c/t', // slideNumber: true,
             
-            history: false,
+            history: true,
             
             
             menu: {
