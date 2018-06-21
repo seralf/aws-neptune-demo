@@ -8,7 +8,7 @@ A graph database in the cloud
 
 <small>https://gitpitch.com/seralf/aws-neptune-demo/drafts_seralf</small>
 
-![Image](./assets/md/assets/watch?v=6o1Ezf6NZ_E#t=26m)
+![Image](http://youtube.com/watch?v=6o1Ezf6NZ_E#t=26m)
 
 ---
 
@@ -32,7 +32,7 @@ CHECK: come usare vertical fragments?
 
 ## Agenda - 1
 
-- Overview AWS Neptune (cos'è, come funziona) ~ 5 minuti
+- Overview AWS Neptune (cos'Ã¨, come funziona) ~ 5 minuti
 - Cosa sono SPARQL e Gremlin ~ 2/3 minuti
 - Property Graph o RDF? ~ 2/3 minuti
 - Qualche nota di introduzione a SPARQL ~ 2/3 minuti
@@ -624,7 +624,7 @@ WHERE {
 
 +++
 
-+ più sintetica
++ piÃ¹ sintetica
 ```
 PREFIX nwd: <http://northwind.com/model/> 
 SELECT DISTINCT ?product_name      
@@ -730,7 +730,7 @@ GROUP BY ?customer_uri
 
 +++
 
-+ esempio ordinato: il customer con più ordini
++ esempio ordinato: il customer con piÃ¹ ordini
 
 ```
 PREFIX nwd: <http://northwind.com/model/> 

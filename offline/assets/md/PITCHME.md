@@ -8,7 +8,7 @@ A graph database in the cloud
 
 <small>https://gitpitch.com/seralf/aws-neptune-demo/drafts_seralf</small>
 
-![Image](./assets/md/assets/watch?v=6o1Ezf6NZ_E#t=26m)
+![Image](http://youtube.com/watch?v=6o1Ezf6NZ_E#t=26m)
 
 ---
 
